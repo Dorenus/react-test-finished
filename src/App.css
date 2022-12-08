@@ -1,3 +1,5 @@
+@import './buttons.css';
+
 .App {
     text-align: center;
 }
@@ -14,7 +16,7 @@
 }
 
 .App-header {
-    background-color: #282c34;
+    background-color: grey;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -22,6 +24,7 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+    position: relative;
 }
 
 .App-link {
@@ -144,4 +147,38 @@ button:disabled {
     align-items: center;
     width: 80%;
     flex-wrap: wrap;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 30px;
+    border: 1px dotted white;
+}
+
+li {
+    width: 200px;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+h2 {
+    height: 50px;
+    overflow: hidden;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: 16px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: gold;
 }
